@@ -5,7 +5,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-# reading and writing json files
+# writing json files
 import json
 
 # new console object
