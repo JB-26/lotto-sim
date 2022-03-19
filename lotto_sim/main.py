@@ -14,10 +14,11 @@ def main():
     """
     Main function
     """
-    console.print(Panel.fit("Welcome to Lotto Sim!", style="bold cyan"))
-    console.print(Panel.fit("[italic yellow]Please type the letters that are highlighted in green to access the functions[/italic yellow]\n[bold green]S[/bold green]et numbers\n[bold green]P[/bold green]lay lottery\n[bold green]Q[/bold green]uit", title="Lotto - Menu 🔮", subtitle="By Joshua Blewitt"))
-
+    
     while True:
+        console.print(Panel.fit("Welcome to Lotto Sim!", style="bold cyan"))
+        console.print(Panel.fit("[italic yellow]Please type the letters that are highlighted in green to access the functions[/italic yellow]\n[bold green]S[/bold green]et numbers\n[bold green]P[/bold green]lay lottery\n[bold green]Q[/bold green]uit", title="Lotto - Menu 🔮", subtitle="By Joshua Blewitt"))
+
         console.print("[green]Enter your choice[/green]")
         choice = input().upper()
 
